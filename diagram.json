@@ -29,21 +29,21 @@
       "type": "wokwi-resistor",
       "id": "r1",
       "top": 109.55,
-      "left": 19.2,
+      "left": -19.2,
       "attrs": { "value": "220" }
     },
     {
       "type": "wokwi-resistor",
       "id": "r2",
       "top": 167.15,
-      "left": 19.2,
+      "left": -19.2,
       "attrs": { "value": "220" }
     },
     {
       "type": "wokwi-resistor",
       "id": "r3",
       "top": 224.75,
-      "left": 19.2,
+      "left": -19.2,
       "attrs": { "value": "220" }
     },
     {
@@ -64,7 +64,10 @@
     [ "r2:1", "r1:1", "black", [ "v0" ] ],
     [ "r2:1", "r3:1", "black", [ "v0" ] ],
     [ "pico:GP21", "bz1:2", "red", [ "h0" ] ],
-    [ "pico:GND.7", "bz1:1", "black", [ "h0" ] ]
+    [ "pico:GND.7", "bz1:1", "black", [ "h0" ] ],
+    [ "led1:C", "r1:2", "black", [ "v0" ] ],
+    [ "r2:2", "led2:C", "black", [ "v0" ] ],
+    [ "r3:2", "led3:C", "black", [ "v0" ] ]
   ],
   "dependencies": {}
 }
