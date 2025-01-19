@@ -113,7 +113,7 @@ Para facilitar a visualização e testes do projeto, uma simulação interativa 
 
 ---
 
-📌 **Sobre a Execução do Projeto**
+## 📌 **Sobre a Execução do Projeto**
 
 Optei por realizar a Atividade 2 Participativa de forma individual, como fui orientado pelo meu mentor. Devido à indisponibilidade da minha placa BitDogLab, utilizei simulações no Wokwi e no Visual Studio Code para testar e validar a implementação do código.
 
